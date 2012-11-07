@@ -1,5 +1,5 @@
 #!/usr/bin/python
-""" Examples from the NLTK book."""
+"""Examples from the NLTK book."""
 
 
 def page57():
@@ -51,8 +51,10 @@ def page61_your_turn():
     for modal in modals:
         print modal + ':', fdist[modal],
 
-
-#page57()
-#page59()
-page60()
-#page61_your_turn()
+if __name__ == "__main__":
+    print __doc__
+    print dir()
+    #page57()
+    #page59()
+    page60()
+    #page61_your_turn()
